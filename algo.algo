@@ -1,0 +1,24 @@
+ALGORITHM ChPointAlgo
+VAR
+    Sentence: STRING = "";
+    charachter : CHAR;
+    lenPh : INTEGER = 0;
+    wordNum : INTEGER = 0;
+    VowelNum : INTEGER=0; 
+BEGIN
+write ("Enter a sentence :");
+read (Sentence)
+FOR i FROM 0 TO sentence.lenght-1  DO  
+lenPh += 1;
+IF (sentence[i]="  ") then 
+    wordNum:= wordNum+1
+    i:=i+1
+END WHILE
+
+IF ( sentence[i]= "a" OR sentence[i]="e" OR sentence[i]="i" OR sentence[i]="o" OR sentence[i]="u" sentence[i]="y"] then
+    vowelNum:= vowelNum+1
+END_IF
+    write ("the sentence lenth:",Sentence.length);
+    write ("the words Numbers:", wordNums+1);
+    write ("the vowel Numbers:", vowelNums);
+END
